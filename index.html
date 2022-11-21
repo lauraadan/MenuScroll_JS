@@ -10,7 +10,21 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 	<script src="js/jquery-3.6.0.min.js"></script>
+<<<<<<< HEAD
 	<title>Menu Scroll with JS and Jquery</title>
+=======
+	<script>
+		var zero = 0;
+		$(document).ready(function(){
+			$(window).on('scroll', function(){
+				$('.navbar').toggleClass('hide', $(window).scrollTop()>zero);
+				zero = $(window).scrollTop();
+			})
+		})
+
+	</script>
+	<title>Commit 3</title>
+>>>>>>> 081a67920eb08ea42f262a59794f527493825b05
 </head>
 <body>
 	<div class="navbar">
