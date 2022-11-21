@@ -6,5 +6,6 @@
 LINKS
 
 GITHUB PAGES: https://lauraadan.github.io/MenuScroll_JS/
+
 GITHUB: https://github.com/lauraadan/MenuScroll_JS
 
